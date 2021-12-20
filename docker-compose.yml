@@ -1,0 +1,8 @@
+version: '3.3'
+services:
+  my-python:
+    build: 
+      context: .
+    container_name: my-running-app
+    image: my-python
+    entrypoint: ["python", "script.py"]
