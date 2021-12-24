@@ -3,6 +3,6 @@ services:
   my-python:
     build: 
       context: .
-    container_name: my-running-app
-    image: my-python
+    container_name: python-container
+    image: python-image
     entrypoint: ["python", "script.py"]
